@@ -73,16 +73,13 @@
         width: 3rem;
 
         &::after {
+            @include absCenter;
             background-color: $color-primary;
             border-radius: 50%;
             content: '';
             display: block;
             height: 1.3rem;
-            left: 50%;
             opacity: 0;
-            position: absolute;
-            top: 50%;
-            transform: translate(-50%, -50%);
             transition: opacity 0.2s;
             width: 1.3rem;
         }

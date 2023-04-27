@@ -133,11 +133,8 @@
 
     // FRONT-SIDE STYLING
     &__cta {
-        left: 50%;
-        position: absolute;
+        @include absCenter;
         text-align: center;
-        top: 50%;
-        transform: translate(-50%, -50%);
         width: 90%;
     }
 
