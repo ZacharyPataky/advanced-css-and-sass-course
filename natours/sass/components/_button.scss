@@ -49,7 +49,7 @@
 
     &--white {
         background-color: $color-white;
-        color: -1;
+        color: $color-grey-dark-1;
 
         &::after {
             background-color: $color-white;
