@@ -43,9 +43,4 @@ body {
     [center-end] minmax(6rem, 1fr)
     [full-end];
   grid-template-rows: 80vh min-content 40vw repeat(3, min-content);
-
-  & > * {
-    font-size: 3rem;
-    padding: 40px;
-  }
 }
